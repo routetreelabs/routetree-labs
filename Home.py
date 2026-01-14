@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="RouteTree Labs Predictive Models", layout="wide")
 
 st.title("RouteTree Labs Sports Prediction Models")
-st.subheader("RouteTree Labs delivers NFL and NBA predictions powered by machine learning, helping sharp bettors and sports fans make smarter moves backed by real data.")
+st.caption("RouteTree Labs delivers NFL and NBA predictions powered by machine learning, helping sharp bettors and sports fans make smarter moves backed by real data.")
 st.write("""Welcome to the Lab. Choose a model from the left sidebar:
 
 - **2026 NBA Points and Spread Predictor** (Ridge Regression)
