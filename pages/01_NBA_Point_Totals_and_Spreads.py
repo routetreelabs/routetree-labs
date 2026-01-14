@@ -39,8 +39,15 @@ ppp_model, pace_model = load_models()
 
 st.subheader("Game-Level Predictions")
 
+display_cols = [
+    "Game_Date",
+    "Away_Team", "Home_Team",
+    "Away_Pred_Pts", "Home_Pred_Pts", "Total_Pred_Pts",
+    "Sportsbook_Total", "Home_Spread"
+]
+
 st.dataframe(
-    game_df.sort_values("Expected_Total_Points", ascending=False),
+    game_df[display_cols],
     use_container_width=True
 )
 
