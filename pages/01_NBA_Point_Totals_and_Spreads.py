@@ -42,8 +42,8 @@ st.subheader("Game-Level Predictions")
 display_cols = [
     "Game_Date",
     "Away_Team", "Home_Team",
-    "Away_Pred_Pts", "Home_Pred_Pts", "Total_Pred_Pts",
-    "Sportsbook_Total", "Home_Spread"
+    "Away_Pred_Pts", "Home_Pred_Pts", "Home_Spread",
+    "Total_Pred_Pts", "Sportsbook_Total"
 ]
 
 st.dataframe(
@@ -85,6 +85,7 @@ with st.expander("Model Details"):
 
 **Prediction Logic**
 Predicted Points = Predicted PPP × Expected Possessions
+
 Models are retrained daily in Jupyter and persisted with joblib.
 """)
 
