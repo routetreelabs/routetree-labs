@@ -29,7 +29,7 @@ def load_predictions():
 df = load_predictions()
 
 
-# ---------------- UI ---------------- #
+# UI
 
 if df is None:
     st.error("No prediction file found.")
@@ -64,15 +64,6 @@ with st.expander("🔍 Filters"):
 st.subheader("Filtered Results")
 st.dataframe(df, use_container_width=True)
 
-
-# Download
-csv = df.to_csv(index=False).encode("utf-8")
-st.download_button(
-    "Download CSV",
-    csv,
-    "nba_spread_predictions.csv",
-    "text/csv"
-)
 
 
 # Footer
