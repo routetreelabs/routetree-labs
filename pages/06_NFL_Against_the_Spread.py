@@ -7,7 +7,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
 
-st.title("Against the Spread (ATS) Model - Logistic Regression")
+st.title("NFL Spread Predictions Model - Regular Reason (2025)")
+st.caption("Logistic Regression model using FanDuel and DraftKings lines introduced in Week 12")
 st.markdown("**Week 12 Record:** Both models 10–4 ✅")
 st.markdown("**Week 13 Record:** Both models 9–7 ✅")
 st.markdown("**Week 14 Record:** Both models 7–7 ➖")

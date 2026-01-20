@@ -15,7 +15,8 @@ from sklearn.metrics import (accuracy_score, classification_report, confusion_ma
 
 # UI Header / Weekly Records
 
-st.title("Moneyline Model – Logistic Regression")
+st.title("NFL Moneyline Prediction Model - Regular Season (2025)")
+st.caption("Logistic Regression model for FanDuel and DraftKings lines)")
 st.subheader("2025 Regular Season Accuracy: 64%")
 st.markdown("**Week 1 Record:** Both models 14–2 ✅")
 st.markdown("**Week 1 Record:** Both models 14–2 ✅")

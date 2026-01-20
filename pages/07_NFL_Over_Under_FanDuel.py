@@ -8,7 +8,10 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.title("FanDuel NFL Over/Under Predictions - KNN")
+st.title("NFL Over/Under Predictions - Fanduel - Regular Season (2025)")
+st.caption("K-Nearest Neighbors model using 7 nearest neighbors on FanDuel game lines")
+st.subheader("2025 Regular Season Accuracy: 54.4%")
+st.subheader("2025 Regular Season Overs Accuracy: 56%")
 
 # Display past records
 st.markdown("""

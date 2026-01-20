@@ -4,7 +4,7 @@ import joblib
 
 st.set_page_config(layout="wide")
 
-st.title("NBA Points and Spread Prediction Model (2026)")
+st.title("NBA Points Prediction Model (2026)")
 st.caption("Ridge regression model using rolling PPP + pace features")
 
 

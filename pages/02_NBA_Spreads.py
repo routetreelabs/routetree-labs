@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("NBA Spread Prediction Model")
+st.title("NBA Spread Prediction Model (2026)")
 st.caption("Logistic Regression")
 
 # Paths
