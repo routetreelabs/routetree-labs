@@ -39,9 +39,6 @@ if df is None:
 
 
 # Header info
-today = date.today().isoformat()
-st.subheader(f"Predictions for {today}")
-
 st.write("Model output:")
 st.dataframe(
     df,
